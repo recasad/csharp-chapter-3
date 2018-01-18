@@ -94,7 +94,7 @@
             // 
             this.Revenue.AccessibleName = "Revenue";
             this.Revenue.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Revenue.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Revenue.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Revenue.Location = new System.Drawing.Point(166, 120);
             this.Revenue.Name = "Revenue";
             this.Revenue.Size = new System.Drawing.Size(189, 41);
@@ -110,6 +110,7 @@
             this.CalculateRev.TabIndex = 7;
             this.CalculateRev.Text = "Calculate Revenue";
             this.CalculateRev.UseVisualStyleBackColor = true;
+            this.CalculateRev.Click += new System.EventHandler(this.CalculateRev_Click);
             // 
             // Form1
             // 
